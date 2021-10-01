@@ -19,7 +19,7 @@ cargo build-bpf
 ### Deploy the dex to the configured solana cluster
 
 ```bash
-DEX_PROGRAM_ID="$(solana deploy dex/target/bpfel-unknown-unknown/release/serum_dex.so | jq .programId -r)"
+DEX_PROGRAM_ID="$(solana deploy ~/serum-dex/target/bpfel-unknown-unknown/release/serum_dex.so | jq .programId -r)"
 ```
 
 ## Run the fuzz tests
