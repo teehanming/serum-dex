@@ -7,7 +7,7 @@ Using the `do.sh` script from the repository's top level directory,
 ### Run unit tests
 
 ```bash
-script/travis/dex-tests.sh
+scripts/travis/dex-tests.sh
 ```
 
 ### Compile the dex binary
