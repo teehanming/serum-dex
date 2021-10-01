@@ -7,13 +7,13 @@ Using the `do.sh` script from the repository's top level directory,
 ### Run unit tests
 
 ```bash
-./do.sh test dex
+script/travis/dex-tests.sh
 ```
 
 ### Compile the dex binary
 
 ```bash
-./do.sh build dex
+cargo build-bpf
 ```
 
 ### Deploy the dex to the configured solana cluster
